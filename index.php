@@ -1,2 +1,3 @@
-ZSK
-halo halo
+<?php
+echo 'teściczek';
+    ?>
