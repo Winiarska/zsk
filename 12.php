@@ -40,7 +40,7 @@
        //echo $towar;
 
         //$sql = "SELECT `cena` FROM `towary` WHERE `nazwa`=\'$towar\'";
-        $sql = "SELECT `cena` FROM `towary` WHERE `nazwa`='$towar'";
+        $sql = "SELECT * FROM `towary` WHERE `nazwa`='$towar'";
         $connect = mysqli_connect("localhost", "root", "", "sklep");
         $result = mysqli_query($connect, $sql);
         $row = mysqli_fetch_assoc($result);
